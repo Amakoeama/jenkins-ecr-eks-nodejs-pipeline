@@ -1,0 +1,16 @@
+{
+  "name": "jenkins-ecr-eks-nodejs-app",
+  "version": "1.0.0",
+  "description": "Node.js app for Jenkins → ECR → EKS CI/CD pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests configured\" && exit 0"
+  },
+  "keywords": ["nodejs", "jenkins", "docker", "eks", "ecr", "kubernetes"],
+  "author": "Amakoe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
