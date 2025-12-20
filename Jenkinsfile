@@ -17,7 +17,7 @@ pipeline {
     stage('Build Docker Image') {
       steps {
         sh '''
-          docker build -t nodejs-demo-app:${IMAGE_TAG} .
+          docker build -t nodejs-demo-app:${IMAGE_TAG} -f docker/Dockerfile .
         '''
       }
     }
