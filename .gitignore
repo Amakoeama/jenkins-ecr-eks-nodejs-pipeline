@@ -14,3 +14,7 @@ node_modules/
 # OS / editor noise
 .DS_Store
 .vscode/
+
+# Local AWS CLI artifacts
+aws/
+awscliv2.zip
